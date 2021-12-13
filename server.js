@@ -21,7 +21,6 @@ app.use(layouts) ;
 //routes.js を使う
 app.use(routes)
 
-
 app.listen(port, host, () => {
     console.log('http://' + host + ':' + port)
 })
